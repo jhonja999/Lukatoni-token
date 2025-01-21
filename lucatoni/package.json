@@ -1,0 +1,25 @@
+{
+  "name": "lucatoni-token",
+  "version": "1.0.0",
+  "description": "Token Lucatoni en Ethereum",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "solc": "^0.8.19",
+    "truffle": "^5.8.1"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
